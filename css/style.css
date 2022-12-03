@@ -52,7 +52,7 @@ body{
     background-color: #d81356;
     border: 2px solid #d81356;
     text-transform: capitalize;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: 500;
     margin-right: 15px;
     border-radius: 30px;
@@ -467,6 +467,11 @@ nav.sticky .nav-lists li a{
 .tech-img {
     height: 50px;
     width: 50px;
+    transition: .5s;
+}
+
+.tech-img:hover{
+    transform: scale(1.2);
 }
 
 .tech-text {
@@ -815,3 +820,32 @@ footer span{
 
 }
  
+/* Preloader */
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #1C2020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    width: 50%;
+    animation: loader 3s infinite ease;
+    /* height: 50%; */
+}
+
+.loader-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ======================= */
