@@ -849,3 +849,43 @@ footer span{
 
 
 /* ======================= */
+
+
+/* Carousel */
+
+.carousel-fade .carousel-item {
+    z-index: 0 !important;
+}
+
+.carousel-fade .carousel-control-next-icon,
+.carousel-fade .carousel-control-prev-icon {
+    filter: invert(1) grayscale(100);
+}
+
+.carousel-indicators>button {
+    /* margin-top: 10%; */
+    border-radius: 50%;
+    width: 23px !important;
+    height: 2px !important;
+    background-color: #fff !important;
+    background-clip: unset !important;
+    margin-right: 5px !important;
+}
+
+.carousel-indicators .active {
+    background: #fff;
+}   
+
+.section-header2{
+    text-align: center;
+}
+
+.section-header2 h2{
+    text-transform: uppercase;
+    color: black;
+    font-size: 3em;
+    letter-spacing: .5px;
+    margin-bottom: 75px;
+    display: inline-block;
+    position: relative;
+}
